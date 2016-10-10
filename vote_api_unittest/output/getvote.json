@@ -1,0 +1,26 @@
+{"vote_id":"1",
+  "vote_topic":" Which one of the following should higher education leaders prioritize in the next decade?",
+  "vote_intro":"",
+  "vote_author":"18",
+  "vote_type":"1",
+  "vote_tag_type":"F",
+  "vote_date_start":"2015-10-19",
+  "vote_date_end":"2015-11-19",
+  "vote_time_start":"00:00:00",
+  "vote_time_end":"00:00:00",
+  "vote_original_image":"\/VotesPolls\/ffdaab4af4dc9f82b0078b4cf01af1de3ad3151f0292102f659c1.jpg",
+  "vote_cover1":"\/VotesPolls\/ffdaab4af4dc9f82b0078b4cf01af1de3ad3151f0292102f659c1.jpg",
+  "vote_author_screenName":"Earth",
+  "vote_author_accountName":"earth",
+  "vote_author_avatar":"\/Profile\/wabox\/25504781f0dc99a379744b186d708c428558160772711617759118.jpg",
+  "vote_created":"0000-00-00 00:00:00",
+  "vote_choice":
+    {"1":
+      {"chioce":"Lower tuition fees and other costs","count":"0"},
+    "2":
+      {"chioce":"Create lifelong learning opportunities for diverse populations","count":"0"},
+    "3":{"chioce":"Strengthen collaboration with the private sector","count":"0"}
+    },
+  "vote_sum_count":"0",
+  "vote_tags":{"news_tag_o_main":null,"news_tag_o_lesson":null}
+}
