@@ -8,7 +8,7 @@ class VoteAPIIntegration extends TestCase
     {
         $result = getVote(1,"","","","");
         $result = substr($result, 1, strlen($result)-2);
-        $this->assertJsonStringEqualsJsonFile('output/getvote.json',$result);
+        $this->assertJsonStringEqualsJsonFile('voteApiUnittest/output/getvote.json',$result);
     }
     public function testGetVote_sql_id_neg()
     {
