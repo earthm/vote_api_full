@@ -96,7 +96,7 @@ function curlput($url,$data='',$header=''){
 }
 function getvote($id,$limit,$sn,$sort,$sortby){
 
-  	$url = 'http://localhost:8888/vote_api/vote/index.php';
+  	$url = 'http://localhost:8888/voteApi/vote/index.php';
     $param = array();
     if($id != ''){
       $param[0] = 'id='.$id;
@@ -141,7 +141,7 @@ function getvote($id,$limit,$sn,$sort,$sortby){
 }
 function insertvote($pb){
 
-  	$url = 'http://localhost:8888/vote_api/vote/index.php';
+  	$url = 'http://localhost:8888/voteApi/vote/index.php';
     $post = json_encode($pb);
     $header = array(
       'X-LIMP-SESSION:'.session_id()
@@ -165,7 +165,7 @@ function insertvote($pb){
 
 function submitvote($pb){
 
-  	$url = 'http://localhost:8888/vote_api/vote/submit/index.php';
+  	$url = 'http://localhost:8888/voteApi/vote/submit/index.php';
     $post = json_encode($pb);
     $header = array(
       'X-LIMP-SESSION:'.session_id()
@@ -189,7 +189,7 @@ function submitvote($pb){
 
 function alreadyvote($vote_id,$vote_uid){
 
-  	$url = 'http://localhost:8888/vote_api/vote/submit/index.php?vid='.$vote_id.'&uid='.$vote_uid;
+  	$url = 'http://localhost:8888/voteApi/vote/submit/index.php?vid='.$vote_id.'&uid='.$vote_uid;
     $header = array(
       'X-LIMP-SESSION:'.session_id()
     );
@@ -210,7 +210,7 @@ function alreadyvote($vote_id,$vote_uid){
     return json_encode($return);//JSON_FORCE_OBJECT
 }
 function hashtagInsert($pb){
-  $url = 'http://localhost:8888/vote_api/vote/hashtag/index.php';
+  $url = 'http://localhost:8888/voteApi/vote/hashtag/index.php';
   $post = json_encode($pb);
   $header = array(
     'X-LIMP-SESSION:'.session_id()
@@ -233,7 +233,7 @@ function hashtagInsert($pb){
 }
 function getVoteTags($vote_id){
 
-  	$url = 'http://localhost:8888/vote_api/vote/hashtag/index.php?id='.$vote_id;
+  	$url = 'http://localhost:8888/voteApi/vote/hashtag/index.php?id='.$vote_id;
     $header = array(
       'X-LIMP-SESSION:'.session_id()
     );
