@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="2" failures="0" hostname="MacBook-Pro-4.local" name="seleniumCI.Junit_chrome" skipped="0" tests="1" time="10.402" timestamp="2016-10-15T03:49:45">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="0" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/ch/yjqhp6kn6tb75ykwwxs77qm80000gn/T/" />
+    <property name="user.country.format" value="TH" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Users/Earth/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327" />
+    <property name="java.runtime.version" value="1.8.0_101-b13" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.jSYijHjifR/Render" />
+    <property name="user.name" value="Earth" />
+    <property name="env.USER" value="Earth" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0" />
+    <property name="env.APP_ICON_99951" value="../Resources/Eclipse.icns" />
+    <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="en" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_99951" value="1" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="ant.project.name" value="seleniumCI" />
+    <property name="java.version" value="1.8.0_101" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="Earth" />
+    <property name="ant.file" value="/Users/Earth/Documents/workspace/seleniumCI/build.xml" />
+    <property name="os.version" value="10.10.5" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_98350" value="1" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.101-b13" />
+    <property name="ant.library.dir" value="/Users/Earth/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="env.JAVA_MAIN_CLASS_2376" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/Earth" />
+    <property name="target" value="1.8" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/Earth/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner seleniumCI.Junit_chrome skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/Earth/Documents/workspace/seleniumCI/junit/TEST-seleniumCI.Junit_chrome.xml crashfile=/Users/Earth/Documents/workspace/seleniumCI/junitvmwatcher2636240464316342879.properties propsfile=/Users/Earth/Documents/workspace/seleniumCI/junit8103126287761676123.properties" />
+    <property name="java.class.path" value="/Users/Earth/Documents/workspace/seleniumCI/bin:/Users/Earth/.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar:/Users/Earth/.p2/pool/plugins/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/Earth/Downloads/selenium-server-standalone-2.53.0.jar:/Users/Earth/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-launcher.jar:/Users/Earth/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar:/Users/Earth/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit.jar:/Users/Earth/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+    <property name="env.APP_ICON_98888" value="../Resources/Eclipse.icns" />
+    <property name="ant.file.seleniumCI" value="/Users/Earth/Documents/workspace/seleniumCI/build.xml" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_2376" value="1" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_98888" value="1" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="env.HOME" value="/Users/Earth" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="/Users/Earth/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327" />
+    <property name="ant.file.type.seleniumCI" value="file" />
+    <property name="java.io.tmpdir" value="/var/folders/ch/yjqhp6kn6tb75ykwwxs77qm80000gn/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.KgcOhKihYK/Listeners" />
+    <property name="env.COMMAND_MODE" value="unix2003" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/Earth/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/Earth/Documents/workspace/seleniumCI" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/Earth/Documents/workspace/seleniumCI" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/Users/Earth/.p2/pool/plugins/org.apache.ant_1.9.6.v201510161327/lib/ant.jar" />
+    <property name="source" value="1.8" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build,Junit,Junit_chrome,junitreport" />
+  </properties>
+  <testcase classname="seleniumCI.Junit_chrome" name="testJunit" time="10.298">
+    <error message="Error communicating with the remote browser. It may have died.&#xa;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;&#xa;System info: host: &apos;MacBook-Pro-4.local&apos;, ip: &apos;192.168.1.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: driver.version: RemoteWebDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/ch/yjqhp6kn6tb75ykwwxs77qm80000gn/T/.org.chromium.Chromium.VDLxnM}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: c77a03682a4c07d03b42cf157d582153" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;MacBook-Pro-4.local&apos;, ip: &apos;192.168.1.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/ch/yjqhp6kn6tb75ykwwxs77qm80000gn/T/.org.chromium.Chromium.VDLxnM}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c77a03682a4c07d03b42cf157d582153
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:316)
+	at seleniumCI.Junit_chrome.testJunit(Junit_chrome.java:37)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:17911 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;MacBook-Pro-4.local&apos;, ip: &apos;192.168.1.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:17911 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:162)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+</error>
+    <error message="Error communicating with the remote browser. It may have died.&#xa;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;&#xa;System info: host: &apos;MacBook-Pro-4.local&apos;, ip: &apos;192.168.1.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_101&apos;&#xa;Driver info: driver.version: RemoteWebDriver&#xa;Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/ch/yjqhp6kn6tb75ykwwxs77qm80000gn/T/.org.chromium.Chromium.VDLxnM}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]&#xa;Session ID: c77a03682a4c07d03b42cf157d582153" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;MacBook-Pro-4.local&apos;, ip: &apos;192.168.1.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=/var/folders/ch/yjqhp6kn6tb75ykwwxs77qm80000gn/T/.org.chromium.Chromium.VDLxnM}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=54.0.2840.59, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: c77a03682a4c07d03b42cf157d582153
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:526)
+	at seleniumCI.Junit_chrome.tearDown(Junit_chrome.java:77)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to localhost:17911 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 17:00:58&apos;
+System info: host: &apos;MacBook-Pro-4.local&apos;, ip: &apos;192.168.1.34&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:17911 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+</error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver (v2.8.241036) on port 17911
+Oct 15, 2016 10:49:55 AM org.openqa.selenium.os.UnixProcess destroy
+INFO: Command failed to close cleanly. Destroying forcefully (v2). [/Users/Earth/Documents/workspace/chromedriver, --port=17911][ {}]
+]]></system-err>
+</testsuite>
